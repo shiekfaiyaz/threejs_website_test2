@@ -18,7 +18,7 @@ function init() {
     const containerHeight = container.clientHeight;
 
     // Camera setup
-    camera = new THREE.PerspectiveCamera(75, containerWidth / containerHeight, 0.1, 1000);
+    camera = new THREE.PerspectiveCamera(30, containerWidth / containerHeight, 0.1, 1000);
     camera.position.set(0, 2, 5);
 
     // Renderer setup
